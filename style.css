@@ -279,4 +279,40 @@
 .priceDetail-container button{
     height: 2rem;
     border: none;
+    cursor: pointer;
+}
+
+/* Filter */
+
+.filter-container{
+    height: 90vh;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 1px solid;
+}
+.filter-container h2{
+    font-size:120% ;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+}
+.filter-container input{
+    cursor: pointer;
+}
+.filter p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.range{
+    display: flex;
+    justify-content: space-between;
+}
+.filter-container>*{
+    margin-bottom:0.5rem
+
 }
