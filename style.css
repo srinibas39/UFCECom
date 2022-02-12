@@ -319,7 +319,6 @@
 
 /* product display */
 .display-container{
-    background-color: red;
     width: 16rem;
     height: 10rem;
     position: relative;
@@ -329,6 +328,7 @@
 .display-container img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .display-container button{
     position: absolute;
