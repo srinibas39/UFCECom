@@ -459,3 +459,30 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+/* Preview */
+.preview{
+    height: 80vh;
+    padding: 2rem;
+    display: flex;
+}
+.preview-img{
+    width: 40%;
+}
+.preview-img img{
+    height: 100%;
+    width: 100%;
+}
+.preview-description{
+    width: 60%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.preview-description button{
+    padding: 1rem;
+    background-color: #d20a0a;
+    color: white;
+    border: none;
+    border-radius: 13rem;
+}
