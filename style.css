@@ -7,7 +7,7 @@
 :root{
     --primary-color:#FF3B30;
     --secondary-color:white;
-    --primary-font-family:'Montserrat', sans-serif;
+    --primary-font-family:'Klavika',Arial,sans-serif;
     --product-like:deeppink;
    
 }
@@ -433,3 +433,29 @@
     padding: 1rem;
 } */
 
+/* footer */
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: #19191e;
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    padding: 4rem;
+    justify-content: space-between;
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bold{
+    font-weight: bold;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+}
