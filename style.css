@@ -388,7 +388,48 @@
     outline: none;
     padding: 5px;
 } 
-.remember input,a{
+.remember input{
     cursor: pointer;
     text-decoration: none;
 }
+.remember a{
+    cursor: pointer;
+    text-decoration: none;
+}
+/* Hero */
+
+.hero-container{
+    height: 50vh;
+    display: grid;
+    grid-template-columns:30vw 40vw ;
+    grid-template-areas: 
+    "hero-content hero-img"
+    "hero-content hero-img";
+
+}
+
+.hero-content{
+    grid-area: hero-content;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #18181b;
+    color: white;
+    font-size: 80%;
+}
+.hero-img{
+     grid-area:hero-img;
+     height: 50vh;
+     width: 46vw;
+}
+.hero-img img{
+    height: 100%;
+    width: 100%;
+}
+/* .banner{
+    padding: 1rem;
+} */
+
