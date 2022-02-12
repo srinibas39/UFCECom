@@ -399,39 +399,32 @@
 /* Hero */
 
 .hero-container{
-    height: 50vh;
-    display: grid;
-    grid-template-columns:30vw 40vw ;
-    grid-template-areas: 
-    "hero-content hero-img"
-    "hero-content hero-img";
+    background-color: red;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
 .hero-content{
-    grid-area: hero-content;
-    height: 50vh;
+    width: 50%;
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    background-color: #18181b;
-    color: white;
-    font-size: 80%;
+    color: #fff;
+    background-color: #19191e;
 }
 .hero-img{
-     grid-area:hero-img;
-     height: 50vh;
-     width: 46vw;
+    display: flex;
+    width: 50%;
 }
 .hero-img img{
-    height: 100%;
     width: 100%;
-}
-/* .banner{
-    padding: 1rem;
-} */
+    height: 100%;
+} 
+
 
 /* footer */
 
@@ -533,4 +526,33 @@ footer{
     box-shadow: 0px 0px 0px 0.5px #aaa;
     justify-content: center;
     padding: 0 1rem;
+}
+
+/* Categories */
+
+.card{
+    height: 70vh;
+    position: relative;
+    margin: 1rem;
+    width: 22rem;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+}
+.card-img img{
+    width: 100%;
+}
+.card-img div{
+    background-color: #fff;
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid red;
+    position: absolute;
+    width: 20rem;
+    padding: 0 1rem;
+    top: 26rem;
+    left: 16px;
 }
