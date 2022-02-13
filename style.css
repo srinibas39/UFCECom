@@ -450,6 +450,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 .bold{
     font-weight: bold;
@@ -457,12 +458,16 @@ footer{
 .footer-icons{
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 /* Preview */
 .preview{
     height: 80vh;
     padding: 2rem;
     display: flex;
+    width: 82.5rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 0px 0.5px #AAA;
 }
 .preview-img{
     width: 40%;
@@ -519,6 +524,7 @@ footer{
     align-items: center;
     box-shadow: 0px 0px 0px 0.5px #aaa;
     justify-content: center;
+    cursor: pointer;
 }
 .searchBox input{
     border: none;
@@ -589,4 +595,11 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+/* Routing */
+.link{
+    display: block;
+    text-decoration: none;
+    color: var(--secondary-color);
 }
