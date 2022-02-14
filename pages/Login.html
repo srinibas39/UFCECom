@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -20,7 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100&family=Roboto:wght@100&family=Shalimar&family=Yuji+Boku&display=swap"
       rel="stylesheet"
     />
-    
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -28,10 +28,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-</head>
-<body>
+  </head>
+  <body>
     <div class="navBar">
         <div class="navBar-img">
+            <a href="../pages/HomePage.html" class="link2"></a>
           <svg
             class="site-logo"
             fill="none"
@@ -54,61 +55,77 @@
             <span class="material-icons-outlined"> search </span>
           </div>
           <div>
-            <span class="material-icons-outlined"> person </span>
+              <a href="../pages/Login.html" class="link2"></a>
+              <span class="material-icons-outlined"> person </span>
           </div>
           <div>
-            <span class="material-icons-outlined"> shopping_bag </span>
+              <a href="../pages/products.html" class="link2"></a>
+              <span class="material-icons-outlined">
+                  inventory_2
+                  </span>
+        </div>
+          <div>
+              <a href="../pages/Cart.html" class="link2"></a>
+              <span class="material-icons-outlined"> shopping_bag </span>
           </div>
+          <div>
+              <a href="../pages/WishList.html" class="link2"></a>
+              <span class="material-icons-outlined">
+                  favorite_border
+                  </span>
+        </div>
+    
+      </div>
+    </div>
+    <div class="login-container">
+      <div class="login">
+        <h2>Login</h2>
+        <div class="email-container">
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+        </div>
+        <div class="password-container">
+          <label for="password">Password</label>
+          <input type="password" name="password" />
+        </div>
+        <div class="forgotP-container">
+          <div class="remember">
+            <input type="checkbox" name="remember-me" />
+            <label for="remember-me">Remember Me</label>
+          </div>
+          <a href="#">Forgot Your Password ?</a>
+        </div>
+        <button class="btn-login">Login</button>
+        <div class="create-new">
+          <a href="./signup.html" class="link link2"></a>
+          <p>Create new Account</p>
+          <span class="material-icons"> arrow_forward_ios </span>
         </div>
       </div>
-      <div class="login-container">
-        <div class="login">
-            <h2>Login</h2>
-          <div class="email-container">
-            <label for="email">Email</label>
-            <input type="email" name="email" />
-          </div>
-          <div class="password-container">
-            <label for="password">Password</label>
-            <input type="password" name="password" />
-          </div>
-          <div class="forgotP-container">
-            <div class="remember">
-              <input type="checkbox" name="remember-me" />
-              <label for="remember-me">Remember Me</label>
-            </div>
-            <a href="#">Forgot Your Password ?</a>
-          </div>
-          <button class="btn-login">Login</button>
-          <div class="create-new">
-            <p>Create new Account</p>
-            <span class="material-icons"> arrow_forward_ios </span>
-          </div>
-        </div>
-      </div>
-      <footer>
-        <ul class="footer-list">
-          <li class="bold">SHOP</li>
-          <li>About us</li>
-          <li>Gift Cards</li>
-          <li>Contact us</li>
-        </ul>
-        <ul class="footer-list">
-          <li class="bold">HELP AND ADVICE</li>
-          <li>Shipping and Returns</li>
-          <li>Cookie policy</li>
-          <li>Size Guide</li>
-        </ul>
-        <ul class="footer-list">
-          <li class="bold">CONTACT</li>
-          <li>UFCStore@ufc.com</li>
-          <li>Gift Cards</li>
-          <li class="footer-icons">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-          </li>
-        </ul>
-      </footer>
-</body>
+    </div>
+    <footer>
+      <ul class="footer-list">
+        <li class="bold">SHOP</li>
+        <li>About us</li>
+        <li>Gift Cards</li>
+        <li>Contact us</li>
+      </ul>
+      <ul class="footer-list">
+        <li class="bold">HELP AND ADVICE</li>
+        <li>Shipping and Returns</li>
+        <li>Cookie policy</li>
+        <li>Size Guide</li>
+      </ul>
+      <ul class="footer-list">
+        <li class="bold">CONTACT</li>
+        <li>UFCStore@ufc.com</li>
+        <li>Gift Cards</li>
+        <li class="footer-icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
