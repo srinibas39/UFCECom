@@ -461,7 +461,6 @@ footer{
     background-color: #19191e;
     color: white;
     display: flex;
-    width: 100vw;
     height: 50vh;
     padding: 4rem;
     justify-content: space-between;
@@ -685,4 +684,12 @@ footer{
 }
 .text-center{
     text-align: center;
+}
+
+/* Login Page */
+.login-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
