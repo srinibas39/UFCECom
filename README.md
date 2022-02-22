@@ -10,7 +10,7 @@ UFCStore is an ecommerce platform which hosts various Apparel , Accessories , Eq
 + [login](https://ufcstore.netlify.app/pages/login)
 + [signup](https://ufcstore.netlify.app/pages/signup.html)
 
-## [LiveLink](https://ufcstore.netlify.app/)
+## [Link](https://ufcstore.netlify.app/)
 
 ## Screenshots
 ![Capture1](./screenshot/Capture1.PNG)
