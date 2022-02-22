@@ -2,13 +2,15 @@
 UFCStore is an ecommerce platform which hosts various Apparel , Accessories , Equipments and Replica Belts of UFC/Mixed Martial Athletes.
 
 ## Screen
-+ [Home]()
-+ [ProductsPage]()
-+ [PreviewPage]()
-+ [CartPage]()
-+ [WishListPage]()
-+ [login]()
-+ [signup]()
++ [Home](https://ufcstore.netlify.app/pages/homepage)
++ [ProductsPage](https://ufcstore.netlify.app/pages/products.html)
++ [PreviewPage](https://ufcstore.netlify.app/pages/preview.html)
++ [CartPage](https://ufcstore.netlify.app/pages/cart)
++ [WishListPage](https://ufcstore.netlify.app/pages/wishlist)
++ [login](https://ufcstore.netlify.app/pages/login)
++ [signup](https://ufcstore.netlify.app/pages/signup.html)
+
+## [LiveLink](https://ufcstore.netlify.app/)
 
 ## Screenshots
 ![Capture1](./screenshot/Capture1.PNG)
